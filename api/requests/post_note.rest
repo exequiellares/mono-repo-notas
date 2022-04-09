@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDg3ZTJiYjAxZDhkMWMzZjY3YjdiYiIsInVzZXJuYW1lIjoiYXhlbGRldiIsImlhdCI6MTY0ODk0MDg0NCwiZXhwIjoxNjQ5NTQ1NjQ0fQ.68X7Vi-exCKDICGExU6KxRBHj72Thq3cCfH9paGiSkQ
+
+{
+  "content": "Utilizando el middleware del user extractor2",
+  "important": true,
+  "password": "asda"
+}
